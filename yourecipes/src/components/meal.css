@@ -13,7 +13,9 @@
     text-align: center;
     text-shadow: 3px 4px 3px rgba(50, 50, 70, 0.7);
 }
-
+.R{
+    text-shadow: 0px 3px 5px rgba(12, 12, 17, 0.7);
+}
 .heading h4 {
     color: rgba(50, 50, 70, 0.7);
     text-align: center;

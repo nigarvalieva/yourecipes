@@ -15,8 +15,8 @@ export default function Meal () {
         <>
             <div className="main">
                 <div className="heading">
-                    <h1>Search Your Food Recipe</h1>
-                    <h4>Find recipe! Cook! Enjoy!</h4>
+                    <h1>Search You<span className="R" style={{color: 'white'}}>R</span>ecipe</h1>
+                    <h4>Find! Cook! Enjoy!</h4>
                 </div>
                 <div className="searchBox">
                     <input type="search" className="search-bar" onChange={(e)=>setSearch(e.target.value)} value={search} onKeyPress={searchMeal}/>
