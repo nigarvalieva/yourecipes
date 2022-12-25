@@ -2,7 +2,6 @@ import React from "react";
 import './meal.css';
 
 const Mealitem=(getMeal)=>{
-    console.log(getMeal.data)
     return(
         <div className="meal-item">
              <div className="recipe-card">

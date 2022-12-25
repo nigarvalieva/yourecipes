@@ -1,5 +1,6 @@
 import React from 'react'
 import { Tab, Container, Nav, Row, Col } from "react-bootstrap";
+import CarouselBox from '../components/CarouselBox';
 
 export default function About() {
     return (
@@ -42,6 +43,7 @@ export default function About() {
                                         This has been studied for many years in special educational institutions, and individual, especially talented chefs are famous all over the world.</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third" className="tab-magazines">
+                                    <CarouselBox />
                                     <div className='magazines'>
                                         <a href="https://fontsinuse.com/uses/21698/food-magazine" target='_blank' rel="noreferrer">
                                             <img className='magazine'

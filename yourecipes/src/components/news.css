@@ -1,0 +1,22 @@
+.news-button {
+  background-color: #dc3545;
+  /* Green */
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.card-body a {
+  color: #dc3546b7;
+}
+
+.card-body a:hover {
+  color: #dc3545;
+}

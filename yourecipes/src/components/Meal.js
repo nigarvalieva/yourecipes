@@ -19,7 +19,7 @@ export default function Meal () {
                     <h4>Find! Cook! Enjoy!</h4>
                 </div>
                 <div className="searchBox">
-                    <input type="search" className="search-bar" onChange={(e)=>setSearch(e.target.value)} value={search} onKeyPress={searchMeal}/>
+                    <input type="search" className="search-bar" onChange={(e)=>{setSearch(e.target.value)}} value={search} onKeyPress={searchMeal}/>
                 </div>
                 <div className="meal-container">
                    {(Mymeal==null)? <p className="tryToSearch">Try To Search!</p> : 
