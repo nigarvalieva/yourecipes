@@ -34,7 +34,7 @@ export default function Header() {
                             <Button variant="light">Sign Up</Button>
                         </Nav.Link>
                     </Navbar.Collapse>
-                </Container>
+                </Container>  
             </Navbar>
             <Routes>
                 <Route path="/" element={<Home />} />
