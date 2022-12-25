@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.nav-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.pill-color {
+  color: #282c34;
+}
+
+.pill-color:hover {
+  color: #dc3545;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #dc3545 !important;
+}
+
+.header-search{
+  margin-right: 10px;
+}
+
+.history{
+  width: 100%;
+}
+
+.magazines{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.magazine{
+  width: 60%;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.about-team{
+  width: 85%;
+}
+
+.contact-us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 90%;
+}
+
+.contacts-input{
+  width: 100%;
+  max-width: 70%;
+}
+
+.blog-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.search_box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_main-btn{
+  margin-left: 10px;
+  height: 50px;
+}
+
+
+@media (max-width: 1200px){
+  .search_main{
+    width: 15vw;
+  }
+}
+
+@media (max-width: 992px){
+  .search_main{
+    width: 590px;
+  }
+}
+
+@media (max-width: 768px){
+  .search_main{
+    width: 411px;
+  }
+}
+
+@media (max-width: 550px){
+  .search_main{
+    width: 70vw;
+  }
+
+  .contacts-input{
+    width: 100%;
+    min-width: 280px;
+  }
+  
+}
+
+@media (max-width: 412px){
+  .search_main{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .search_main-btn{
+    width: 100%;
+    margin: 0;
+  }
+  .search_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar-collapse{
+  justify-content: space-between;
+}
+
+
+.form-inline {
+  display: flex;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
